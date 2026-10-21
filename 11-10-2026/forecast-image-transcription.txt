@@ -1,0 +1,74 @@
+Windy screenshot transcription — Sunday, 2026-10-11
+===================================================
+Original source files: 20PM.jpg, 21PM.jpg, 22PM.jpg, 23PM.jpg
+Existing play-quality marker in repository: "Very Good"
+
+IMPORTANT
+These are WEATHER-MODEL FORECAST VALUES shown in saved screenshots,
+NOT anemometer measurements and NOT measured wind at volleyball ball height.
+Each image selects the hour corresponding to its filename. Windy shows
+exact numerical model labels ONLY at that selected hour; do not treat
+positions of the plotted curves at other hours as exact measurements.
+The screenshots show no explicit forecast issuance time, forecast point
+coordinates, wind measurement height, or timezone.
+Wind/gust units: m/s. Temperature: degrees C. Rain: mm.
+The number in parentheses beside each wind speed is the accompanying
+higher wind value displayed in the screenshot (gust).
+A "-" means the original label has a dash, NOT a measured zero.
+
+HOVERED WIND / GUST / TEMPERATURE / PRECIPITATION (from each image)
+hour,source_image,model,wind_m_s,gust_m_s,temp_C,rain_mm
+20,20PM.jpg,EXP3,4.4,4.8,25,-
+20,20PM.jpg,ICON13,4.2,6.9,26,-
+20,20PM.jpg,GFS27,3.9,4.0,25,-
+20,20PM.jpg,ICON7,3.3,5.9,26,-
+20,20PM.jpg,ECMWF,2.9,5.3,26,-
+21,21PM.jpg,ICON13,4.2,6.6,26,-
+21,21PM.jpg,EXP3,4.1,4.5,24,-
+21,21PM.jpg,ICON7,3.3,5.4,26,-
+21,21PM.jpg,GFS27,3.0,3.5,24,-
+21,21PM.jpg,ECMWF,2.3,5.3,26,-
+22,22PM.jpg,ICON13,4.0,6.3,26,-
+22,22PM.jpg,ICON7,3.0,5.0,26,-
+22,22PM.jpg,EXP3,2.4,2.7,24,-
+22,22PM.jpg,ECMWF,2.1,4.1,26,-
+22,22PM.jpg,GFS27,1.7,1.7,24,0.5
+23,23PM.jpg,ICON13,4.0,6.1,26,-
+23,23PM.jpg,ICON7,3.0,4.7,26,-
+23,23PM.jpg,ECMWF,2.2,4.3,26,-
+23,23PM.jpg,EXP3,0.8,1.1,24,-
+23,23PM.jpg,GFS27,0.5,0.6,24,0.4
+
+OTHER HOURLY VALUES VISIBLE IN SCREENSHOTS
+hour,BREEZE_percent,UV_index,swell_height_m,swell_period_s
+20,21,0,0.4,3
+21,36,0,0.4,3
+22,11,0,0.4,3
+23,6,0,0.4,3
+
+BREEZE is recorded as the percentage labeled "BREEZE" in Windy.
+Do not interpret it as a measured wind speed or a ball-height correction.
+Fog row: no numeric value is shown.
+Clouds: small grey cloud bands drawn from approximately late morning
+through evening, with no numeric cloud-cover percentage printed.
+Rain: GFS27 shows 0.5 mm at 22:00 and 0.4 mm at 23:00;
+other selected model values show "-" at those hours.
+Wind-direction and swell-direction arrows are displayed graphically,
+but the screenshot does not supply exact compass bearings in degrees.
+
+DAYTIME UV INDEX (additional exact hourly values in full-day panels)
+09:00=1; 10:00=2; 11:00=3; 12:00=4;
+13:00=5; 14:00=4; 15:00=3; 16:00=1;
+20:00–23:00=0.
+
+TIDE ANNOTATIONS (as shown; heights in meters relative to LAT)
+Previous evening 22:45=0.4 m; 05:00=0.0 m;
+11:05=0.4 m; 17:05=0.1 m; 23:10=0.4 m.
+Some terminal image text is near the right screenshot crop.
+
+FULL-DAY GRAPH NOTES (qualitative, not additional numerical measurements)
+The various wind-model traces are relatively weak early, strengthen
+around the afternoon, and diverge substantially in the late evening:
+ICON13/ICON7 stay appreciably higher than GFS27/EXP3 at 23:00.
+Swell-height row shows about 0.4 m for most of the day.
+Human outcome marker: Very Good.
